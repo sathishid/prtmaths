@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+
+  }
+  .flex-container > div {
+
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .card-style {
+    padding: 20px;
+    align-items: center center;
+  }
+  
+  .card-style > span{
+    color: blue;
+    font-size: 26;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
