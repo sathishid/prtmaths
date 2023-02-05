@@ -6,8 +6,8 @@
         Generate Addition & Subscraction Worksheet</span>
 
       <form>
-        <div>
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
+        <div class="form-items">
+          <mat-form-field  appearance="outline" >
             <mat-label>Sum Type</mat-label>
             <mat-select disableRipple formControlName="sumtype">
               <mat-option value="add">Addition</mat-option>
@@ -16,14 +16,14 @@
             </mat-select>
           </mat-form-field>
 
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
+          <mat-form-field  appearance="outline" >
             <mat-label>No. of Questions</mat-label>
             <mat-select disableRipple formControlName="logicnoofque">
               <mat-option value="25">25 Questions</mat-option>
               <mat-option value="50">50 Questions</mat-option>
             </mat-select>
           </mat-form-field>
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
+          <mat-form-field  appearance="outline" >
             <mat-label>No. of Digits</mat-label>
             <mat-select disableRipple formControlName="logicnoofdigit">
               <mat-option value="1">1 digit</mat-option>
@@ -32,7 +32,7 @@
               <mat-option value="4">4 digit</mat-option>
             </mat-select>
           </mat-form-field>
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
+          <mat-form-field  appearance="outline" >
             <mat-label>No. of Rows</mat-label>
             <mat-select disableRipple formControlName="logicnoofrows">
               <mat-option value="4">4 rows</mat-option>
@@ -48,58 +48,5 @@
       </form>
     </mat-card>
 
-  </div>
-
-  <div>
-    <mat-card class="card-style">
-
-      <span>
-        Generate Multiplication & Division Worksheet
-      </span>
-
-      <form>
-        <div >
-
-
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
-            <mat-label>Multiplication</mat-label>
-            <mat-select disableRipple formControlName="logic1multiple">
-              <mat-option value="multiplication">Multiplication</mat-option>
-              <mat-option value="division">Division</mat-option>
-            </mat-select>
-          </mat-form-field>
-
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
-            <mat-label>No. of Questions</mat-label>
-            <mat-select disableRipple formControlName="logic1noofdigit">
-              <mat-option value="25">25 Questions</mat-option>
-              <mat-option value="50">50 Questions</mat-option>
-            </mat-select>
-          </mat-form-field>
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
-            <mat-label>Multiplicand/Divident Digits</mat-label>
-            <mat-select disableRipple formControlName="logic1divident">
-              <mat-option value="1digit">1 digit multiplied/divide by...</mat-option>
-              <mat-option value="2digit">2 digit multiplied/divide by...</mat-option>
-              <mat-option value="3digit">3 digit multiplied/divide by...</mat-option>
-              <mat-option value="4digit">4 digit multiplied/divide by...</mat-option>
-              <mat-option value="5digit">5 digit multiplied/divide by...</mat-option>
-            </mat-select>
-          </mat-form-field>
-          <mat-form-field class="example-container" appearance="outline" [style.width.px]=327>
-            <mat-label>Multiplier/Divisor Digits</mat-label>
-            <mat-select disableRipple formControlName="logic1multiplier">
-              <mat-option value="1">1 digit</mat-option>
-              <mat-option value="2">2 digits</mat-option>
-              <mat-option value="3">3 digits</mat-option>
-
-            </mat-select>
-          </mat-form-field>
-          <button mat-raised-button class="button">
-            Generate Worksheet
-          </button>
-        </div>
-      </form>
-    </mat-card>
   </div>
 </div>

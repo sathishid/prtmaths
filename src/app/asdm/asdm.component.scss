@@ -3,9 +3,11 @@
 
   }
   .flex-container > div {
-
     margin: 10px;
     padding: 20px;
+  }
+  .form-items {
+    flex-flow: column;
   }
 
   .card-style {
